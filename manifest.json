@@ -1,0 +1,20 @@
+{
+  "id": "capture-panel-service",
+  "name": "capture-panel",
+  "version": "1.0.0",
+  "main": "capture.html",
+  "manifestVersion": 4,
+  "host": {
+    "app": "PS",
+    "minVersion": "22.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "command",
+      "id": "createFromImage",
+      "label": {
+        "default": "Capture"
+      }
+    }
+  ]
+}
